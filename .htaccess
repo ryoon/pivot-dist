@@ -1,0 +1,19 @@
+IndexOptions +FancyIndexing +ScanHTMLTitles
+
+AddType text/plain .asc .md5 .sha
+AddIcon (SIG,/icons/quill.gif) .asc KEYS
+AddIcon (MD5,/icons/quill.gif) .md5
+AddIcon (SHA,/icons/quill.gif) .sha
+AddIcon (TGZ,/icons/compressed.gif) .tar.gz
+AddIcon (ZIP,/icons/compressed.gif) .zip
+AddIcon (JAR,/icons/compressed.gif) .jar
+AddIcon (TXT,/icons/text.gif) README* CHANGES*
+
+AddDescription "MD5 hash" *.md5
+AddDescription "SHA1 hash" *.sha
+AddDescription "PGP signature" *.asc
+AddDescription "Binary distribution" *.tar.gz *.zip
+AddDescription "Source distribution" *-src.tar.gz *-src.zip
+AddDescription "Public PGP keys" KEYS
+AddDescription "Binary distributions" binaries
+AddDescription "Source distributions" source
