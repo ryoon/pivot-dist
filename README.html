@@ -5,50 +5,52 @@
 </head>
 
 <body>
+  <h3>Apache Pivot</h3>
 
-<br><br>
+  <h3><a name="requirements">System Requirements</a></h3>
+  <ul>
+    <li><b>NOTE</b>: The tar files in this distribution use GNU tar extensions
+    and must be untarred with a GNU compatible version of tar. The version
+    of <CODE>tar</CODE> on Solaris and Mac OS X may not work with
+    these files.</li>
+    <li>Pivot requires JRE 5.0.  Read the
+    README file in the distribution for more details.</li>
+  </ul>
 
-<h2><a name="mirrors">Download from your
-    <a href="http://www.apache.org/dyn/closer.cgi/incubator/pivot/">nearest mirror site!</a></a></h2>
+  <h3><a name="packaging">What Should I Download?</a></h3>
+  <p><ul>
+    <li>
+      <a href="binaries/"><code>binaries/</code></a><br/>
+      Binary releases, which contain the Pivot JAR files and javadocs.
+    </li>
+    <li>
+      <a href="source/"><code>source/</code></a><br/>
+      Source distributions.  Every source distribution contains a BUILD file
+      that describes how to build the project.
+    </li>
+  </ul></p>
 
-<p>Do not download from www.apache.org.  Please use a
-   <a href="http://www.apache.org/dyn/closer.cgi/incubator/pivot/">mirror site</a>
-   to help us save apache.org bandwidth.</p>
+  <h3><a name="releases">Current Releases</a></h3>
+  <p>For details on current releases, please see the
+  <a href="http://incubator.apache.org/pivot/download.cgi">Apache Pivot Download Page</a>.</p>
 
-<h2><a name="binaries">Binary Releases</a></h2>
+  <h3><a name="archive">Older Releases</a></h3>
+  <p>Only current, recommended releases are available on www.apache.org
+  and the mirror sites.  Older releases, when available, can be obtained from the <a
+  href="http://archive.apache.org/dist/incubator/pivot">archive site</a>.</p>
 
-<p>Binaries are available in the <a href="binaries/">binaries/</a> directory.</p>
+  <h3><a name="sig">PGP Signatures</a></h3>
+  <p>All of the release distribution packages have been digitally signed
+  (using PGP or GPG) by the Apache Group members that constructed them.
+  There will be an accompanying <SAMP><EM>distribution</EM>.asc</SAMP> file
+  in the same directory as the distribution.  The PGP keys can be found
+  at the <a href="http://pgp.mit.edu/">MIT key repository</a> and within
+  this project's <a href="KEYS">KEYS</a> file.
 
-<h2><a name="source">Source Releases</a></h2>
+  <p>Always use the signature files to verify the authenticity
+  of the distribution, <i>e.g.</i>:</p>
 
-<p>Sources are available in the <a href="source/">source/</a> directory. Every
-   source distribution contains a BUILD file that describes how to build the
-   project.</p>
-
-<h2><a name="releases">Current Releases</a></h2>
-
-<p>For details on current releases, please see the
-   <a href="http://incubator.apache.org/pivot/download.cgi">Apache Pivot Download Page</a>.</p>
-
-<h2><a name="archive">Older Releases</a></h2>
-
-<p>Only current, recommended releases are available on www.apache.org
-   and the mirror sites.  Older releases, when available, can be obtained from the <a
-   href="http://archive.apache.org/dist/incubator/pivot">archive site</a>.</p>
-
-<h2><a name="sig">PGP Signatures</a></h2>
-
-<p>All of the release distribution packages have been digitally signed
-   (using PGP or GPG) by the Apache Group members that constructed them.
-   There will be an accompanying <SAMP><EM>distribution</EM>.asc</SAMP> file
-   in the same directory as the distribution.  The PGP keys can be found
-   at the <a href="http://pgp.mit.edu/">MIT key repository</a> and within
-   this project's <a href="KEYS">KEYS</a> file.
-
-<p>Always use the signature files to verify the authenticity
-   of the distribution, <i>e.g.</i>:</p>
-
-<pre>
+  <pre>
     % pgpk -a KEYS
     % pgpv filename.zip.asc
     <i>or</i>:
@@ -57,13 +59,13 @@
     <i>or</i>:
     % gpg --import KEYS
     % gpg --verify filename.zip.asc
-</pre>
+  </pre>
 
-<p>We offer MD5 hashes as an alternative to validate the integrity
-   of the downloaded files. A unix program called <code>md5</code> or
-   <code>md5sum</code> is included in many unix distributions.  It is
-   also available as part of <a
-   href="http://www.gnu.org/software/coreutils">GNU Core Utilities</a> package.</p>
+  <p>We offer MD5 hashes as an alternative to validate the integrity
+  of the downloaded files. A unix program called <code>md5</code> or
+  <code>md5sum</code> is included in many unix distributions.  It is
+  also available as part of <a
+  href="http://www.gnu.org/software/coreutils">GNU Core Utilities</a> package.</p>
 
 </body>
 </html>
