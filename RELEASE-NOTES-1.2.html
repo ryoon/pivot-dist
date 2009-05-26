@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Apache Pivot 1.2 Release Notes</title>
+  </head>
+  <body>
+    <h2>Bugs Fixed</h2>
+    <ul>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-17'>PIVOT-17</a>] - Set ApplicationContext origin property when using Web Start</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-48'>PIVOT-48</a>] - Border corners are not painted correctly</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-52'>PIVOT-52</a>] - WTKXSerializer throws on empty string attributes</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-54'>PIVOT-54</a>] - Folder#refresh() doesn't fire events</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-56'>PIVOT-56</a>] - TableView.RowEditor does not extend Editor</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-58'>PIVOT-58</a>] - TerraTreeViewSkin#nodesSorted() is unimplemented</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-59'>PIVOT-59</a>] - TreeViewNodeEditor and ListViewItemEditor break on sorted lists</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-60'>PIVOT-60</a>] - pivot.io.Folder does not appear to handle sorting properly</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-61'>PIVOT-61</a>] - TreeBranch does not handle comparitor completely</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-65'>PIVOT-65</a>] - Drop shadows in menu and list button popups don't fade when window is closed</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-70'>PIVOT-70</a>] - Override both equals() and hashCode()</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-71'>PIVOT-71</a>] - Dash array (focused state) values are incorrect</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-76'>PIVOT-76</a>] - Threading issues with ApplicationContext$ScheduledCallback</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-91'>PIVOT-91</a>] - MenuPopup should automatically close when a user clicks outside its bounds</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-94'>PIVOT-94</a>] - Exception in DropShadowDecorator</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-97'>PIVOT-97</a>] - Build yields incorrect output in environments whose default encoding in not UTF-8</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-100'>PIVOT-100</a>] - Minor repaint issue in TerraSpinnerSkin</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-101'>PIVOT-101</a>] - Build on JDK1.5/Mac can cause issues</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-107'>PIVOT-107</a>] - Data-driven component skins do not call render() on renderers before calculating preferred size</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-108'>PIVOT-108</a>] - Calendar Weekdays don't line up for French and Spanish</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-109'>PIVOT-109</a>] - ImageViewSkin does not correctly propagate repaint region</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-125'>PIVOT-125</a>] - Multiple response headers not handled correctly.</li>
+    </ul>
+
+    <h2>Improvements Made</h2>
+    <ul>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-36'>PIVOT-36</a>] - Optimize drop shadow decorator for better performance</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-46'>PIVOT-46</a>] - Update themes to use &quot;provider&quot; architecture, similar to charts</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-50'>PIVOT-50</a>] - Use a default comparator in pivot.io.Folder that sorts alphabetically</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-55'>PIVOT-55</a>] - Add path support for put() and remove() to JSONSerializer</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-57'>PIVOT-57</a>] - TableView.RowEditor should be initiated based on a double-click gesture</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-63'>PIVOT-63</a>] - Rollup should differentiate between user-added and skin-added components</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-64'>PIVOT-64</a>] - Make &quot;bullet&quot; configurable in TerraRollupSkin</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-66'>PIVOT-66</a>] - Optimize Viewport by only painting the revealed area</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-67'>PIVOT-67</a>] -  Component#userData should allow multiple clients to co-exist</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-68'>PIVOT-68</a>] - Alignment.JUSTIFY improvements</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-80'>PIVOT-80</a>] - create adapter classes for listener interfaces</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-84'>PIVOT-84</a>] - Create Sequence.Tree.Path</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-85'>PIVOT-85</a>] - Make WTK structure-like classes immutable</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-90'>PIVOT-90</a>] - Add drop shadows to list button and calendar button popups</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-95'>PIVOT-95</a>] - Add a listCleared() event to pivot.collections.ListListener</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-96'>PIVOT-96</a>] - Java2D performance optimizations</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-98'>PIVOT-98</a>] - ImageViewSkin needs to do bounds checking on opacity</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-106'>PIVOT-106</a>] - Move META-INF/services/javax.xml.stream.XMLInputFactory file into rebundled StAX JAR</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-120'>PIVOT-120</a>] - Eliminate wtkx:include namespace attribute</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-121'>PIVOT-121</a>] - Clean up CardPaneSkin styles</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-123'>PIVOT-123</a>] - Disable the tab button/accordion header when the corresponding tab/panel is disabled</li>
+    </ul>
+
+    <h2>New Features Added</h2>
+    <ul>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-18'>PIVOT-18</a>] - Drawing (vector image) support</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-19'>PIVOT-19</a>] - Add basic movie support</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-49'>PIVOT-49</a>] - Allow caller to specify a FileFilter in pivot.io.Folder</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-62'>PIVOT-62</a>] - Create a strictValidation style in TerraTextInputSkin</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-83'>PIVOT-83</a>] - Display host scaling</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-105'>PIVOT-105</a>] - Create Component.getGraphics()</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-111'>PIVOT-111</a>] - Provide annotations to map WTKX data to application member variables</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-113'>PIVOT-113</a>] - Support full-screen mode in DesktopApplicationContext</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-115'>PIVOT-115</a>] - Add an ActivityIndicator component</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-117'>PIVOT-117</a>] - Provide a means for an application to handle &quot;about&quot; information</li>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-126'>PIVOT-126</a>] - Add support for serializing arbitrary content, byte per byte</li>
+    </ul>
+
+    <h2>Tasks Accomplished</h2>
+    <ul>
+      <li>[<a href='https://issues.apache.org/jira/browse/PIVOT-51'>PIVOT-51</a>] - Move test code into base project under test source directory; use JUnit more pervasively</li>
+    </ul>
+  </body>
+</html>
